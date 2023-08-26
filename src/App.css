@@ -1,0 +1,72 @@
+.App {
+    text-align: center;
+  }
+  
+  .navbar {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: darkcyan;
+  }
+  
+  .link-card {
+    max-width: 800px;
+    margin: 10px auto;
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  .link-card img {
+    width: 800px;
+  }
+  .link-card-link {
+    text-decoration: none;
+    color: black
+  }
+  
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .beer-card {
+    display: flex;
+    gap: 25px;
+    width: 400px;
+    height: 150px;
+    margin: 10px auto;
+    border: 2px solid lightgray;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .beer-card img {
+    width: 50px;
+  }
+  .beer-card div {
+    text-align: left;
+  }
+  
+  .singleBeer-card {
+    width: 400px;
+    margin: 20px auto;
+  }
+  .singleBeer-card img {
+    width: 100px;
+  }
+  .singleBeer-name,
+  .singleBeer-tagline {
+    display: flex;
+    justify-content: space-between;
+  }
+  .singleBeer-name h2,
+  .singleBeer-tagline h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .singleBeer-card p {
+    text-align: left;
+  }
