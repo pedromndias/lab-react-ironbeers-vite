@@ -5,6 +5,8 @@ import AllBeersPage from "./pages/AllBeersPage"
 import RandomBeerPage from "./pages/RandomBeerPage"
 import AddBeerPage from "./pages/AddBeerPage"
 import BeerDetailsPage from "./pages/BeerDetailsPage"
+import Error from "./pages/Error"
+import NotFound from "./pages/NotFound"
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
         <Route path="/random-beer" element={<RandomBeerPage />}/>
         <Route path="/new-beer" element={<AddBeerPage />}/>
         <Route path="/beers/:beerId" element={<BeerDetailsPage />}/>
+
+        <Route path="/error" element={<Error />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

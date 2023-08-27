@@ -2,6 +2,11 @@
     text-align: center;
   }
   
+  a {
+    text-decoration: none;
+    color: black
+  }
+
   .navbar {
     height: 70px;
     display: flex;
@@ -36,15 +41,16 @@
   .beer-card {
     display: flex;
     gap: 25px;
+    justify-content: space-around;
     width: 400px;
-    height: 150px;
+    height: 190px;
     margin: 10px auto;
     border: 2px solid lightgray;
     padding: 5px;
     border-radius: 10px;
   }
   .beer-card img {
-    width: 50px;
+    height: 180px;
   }
   .beer-card div {
     text-align: left;
